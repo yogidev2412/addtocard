@@ -69,7 +69,7 @@ class HomeScreen extends StatelessWidget {
 
                           //title
                           title: Text(
-                            "${pc.serverData[index].isLiked}",
+                            "${pc.serverData[index].title}",
                             style: TextStyle(
                               fontSize: 12,
                               fontWeight: FontWeight.bold,
